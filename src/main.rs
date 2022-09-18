@@ -1,6 +1,6 @@
 use std::ptr::null_mut;
 use windows::core::HRESULT;
-use windows::Win32::Devices::Display::{DISPLAYCONFIG_MODE_INFO, DISPLAYCONFIG_PATH_INFO, DISPLAYCONFIG_TOPOLOGY_ID, GetDisplayConfigBufferSizes, QueryDisplayConfig};
+use windows::Win32::Devices::Display::{DISPLAYCONFIG_MODE_INFO, DISPLAYCONFIG_PATH_INFO, GetDisplayConfigBufferSizes, QueryDisplayConfig};
 use windows::Win32::Foundation::{ERROR_INSUFFICIENT_BUFFER, ERROR_SUCCESS, WIN32_ERROR};
 use windows::Win32::Graphics::Gdi::QDC_ONLY_ACTIVE_PATHS;
 
